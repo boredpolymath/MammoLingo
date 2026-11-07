@@ -7,7 +7,9 @@ body { margin:0; color:var(--text); background:var(--bg); font-family:Inter,ui-s
 button,input { font:inherit; }
 button { cursor:pointer; }
 a { color:inherit; }
-a:focus-visible,button:focus-visible,input:focus-visible { outline:3px solid #c0b0ff; outline-offset:4px; }
+:focus { outline:0; }
+a:focus-visible,.entry-open:focus-visible { color:#fff; text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:4px; }
+button:focus-visible { color:#fff; text-shadow:0 0 12px rgb(187 169 255 / 70%); }
 
 .sr-only { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
 .skip-link { position:fixed; z-index:20; top:-70px; left:16px; padding:9px 14px; color:#0a0118; background:#fff; text-decoration:none; }
@@ -37,7 +39,6 @@ h1 em { color:var(--accent-light); font-style:normal; }
 .hero-copy { max-width:620px; margin:27px auto 31px; color:#d2d0dd; font-size:20px; letter-spacing:-.012em; }
 
 .search-wrap { display:flex; align-items:center; max-width:710px; height:58px; margin:auto; border:1px solid #5d467e; background:#120423; box-shadow:0 0 0 7px rgb(113 61 255 / 7%); }
-.search-wrap:focus-within { border-color:var(--accent-light); box-shadow:0 0 0 7px rgb(113 61 255 / 21%); }
 .search-icon { position:relative; width:17px; height:17px; margin:0 15px 0 20px; border:2px solid var(--muted); border-radius:50%; }
 .search-icon::after { position:absolute; right:-6px; bottom:-3px; width:7px; height:2px; content:""; background:var(--muted); transform:rotate(45deg); }
 input[type="search"] { flex:1; min-width:0; border:0; outline:0; color:#fff; background:transparent; font-size:15px; }
@@ -74,7 +75,6 @@ input::placeholder { color:#8f849e; }
 .entry-open { padding:0; border:0; color:inherit; background:transparent; font:inherit; letter-spacing:inherit; text-align:left; }
 .entry-open::after { position:absolute; inset:0; content:""; cursor:pointer; }
 .entry-open:hover { text-decoration:underline; }
-.entry-open:focus-visible::after { outline:3px solid #c0b0ff; outline-offset:3px; }
 .entry-summary { max-width:700px; margin:11px 0 0; color:#d2d0dd; font-size:15px; }
 .entry-arrow { color:var(--accent-light); font-size:25px; line-height:1; }
 .bookmark-button { position:relative; z-index:1; flex:0 0 auto; width:44px; height:44px; border:1px solid #624985; color:var(--accent-light); background:transparent; font-size:16px; pointer-events:auto; }
