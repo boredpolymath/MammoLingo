@@ -1,4 +1,4 @@
-const VERSION='mammogram-explainer-v39';
+const VERSION='mammogram-explainer-v40';
 const ASSETS=['./','./index.html','./404.html','./privacy.html','./terms.html','./styles.css','./app.js','./legal.js','./manifest.webmanifest','./icon.svg','./favicon-32.png','./icon-192.png','./icon-512.png','./apple-touch-icon.png','./mammolingo-lockup.png'];
 self.addEventListener('install', event => event.waitUntil(caches.open(VERSION).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting())));
 self.addEventListener('activate', event => event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== VERSION).map(key => caches.delete(key)))).then(() => self.clients.claim())));

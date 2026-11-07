@@ -8,8 +8,6 @@ button,input { font:inherit; }
 button { cursor:pointer; }
 a { color:inherit; }
 :focus { outline:0; }
-a:focus-visible,.entry-open:focus-visible { color:#fff; text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:4px; }
-button:focus-visible { color:#fff; text-shadow:0 0 12px rgb(187 169 255 / 70%); }
 
 .sr-only { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
 .skip-link { position:fixed; z-index:20; top:-70px; left:16px; padding:9px 14px; color:#0a0118; background:#fff; text-decoration:none; }
@@ -142,6 +140,11 @@ dialog::backdrop { background:rgb(0 0 0 / 68%); backdrop-filter:blur(2px); }
 body.home-screen .shell { display:flex; flex-direction:column; min-height:100vh; min-height:100dvh; }
 body.home-screen main { width:100%; margin:auto auto 0; }
 body.home-screen footer { width:100%; margin:0 auto auto; border-top:0; padding-top:0; }
+
+@media (min-width:651px) {
+  a:focus-visible,.entry-open:focus-visible { color:#fff; text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:4px; }
+  button:focus-visible { color:#fff; text-shadow:0 0 12px rgb(187 169 255 / 70%); }
+}
 
 @media (max-width:650px) {
   .shell { padding-bottom:calc(68px + env(safe-area-inset-bottom)); }
