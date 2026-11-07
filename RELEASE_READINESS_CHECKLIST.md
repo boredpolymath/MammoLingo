@@ -27,7 +27,7 @@ This is the working release checklist. Checked items reflect decisions or work c
 - [ ] Maintain a data inventory: browser storage, hosting logs, service-worker cache, analytics, error monitoring, and any third-party scripts.
 - [ ] Confirm that no report text or health information is sent to analytics, logs, support tools, or external vendors.
 - [ ] Review hosting and tracking technologies for health-data risk. See [HHS tracking-technology guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html).
-- [ ] Define retention, deletion, incident-response, and user-support policies.
+- [x] Define retention, deletion, incident-response, and user-support policies for the current static-app model.
 - [ ] Obtain counsel’s review of applicable consumer-health, privacy, and accessibility obligations for intended launch locations.
 
 ## Accessibility and usability
@@ -53,7 +53,7 @@ This is the working release checklist. Checked items reflect decisions or work c
 
 - [x] Prepare the repository for public GitHub Pages deployment under the MIT License.
 - [x] Create the public GitHub repository, enable GitHub Pages through GitHub Actions, and record the public URL: [boredpolymath.github.io/MammoLingo](https://boredpolymath.github.io/MammoLingo/).
-- [ ] Define ownership for clinical content, engineering, privacy, support, and incident response.
+- [x] Define Bored Polymath Studios as the owner for clinical-content stewardship, engineering, privacy, support, and incident response.
 - [ ] Prepare support contact, feedback intake, issue triage, and response-time expectations.
 - [ ] Create release notes, known limitations, and an internal go/no-go sign-off record.
 - [ ] Define launch metrics that respect privacy: completion, search success, broken links, accessibility defects, and content-feedback trends.

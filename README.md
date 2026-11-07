@@ -76,6 +76,7 @@ The project maintains release and stewardship documentation:
 - [Content governance workflow](CONTENT_GOVERNANCE.md)
 - [Privacy and data inventory](DATA_AND_PRIVACY_INVENTORY.md)
 - [Content and intellectual-property policy](CONTENT_AND_IP_POLICY.md)
+- [Operations and incident response](OPERATIONS_AND_INCIDENT_RESPONSE.md)
 
 ## Contribute
 
