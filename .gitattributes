@@ -1,3 +1,5 @@
 # MammoLingo is intentionally authored and deployed from dist/.
-# Include the deployment directory in GitHub's language statistics.
-dist/** -linguist-generated
+# Include its hand-written web assets in GitHub Linguist's language statistics.
+# The explicit false values also override path-based generated, vendored, and
+# documentation heuristics that can otherwise exclude a deployment directory.
+dist/** linguist-generated=false linguist-vendored=false linguist-documentation=false linguist-detectable=true
