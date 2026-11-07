@@ -20,12 +20,13 @@ HHS explains that a business associate relationship depends on whether an entity
 | Saved terms | Glossary entry ID and saved-at timestamp | Browser local storage under `mammogram-bookmarks` | No | User can select **Clear all** or clear the site’s browser data. |
 | Offline access | Static app files and cached responses | Browser Cache Storage/service-worker cache | No | Cleared by browser data controls; cache is refreshed when the app updates. |
 | Glossary/source links | A request to the selected external publisher | External publisher | No, by this app | Governed by the external publisher’s practices. |
+| Public feedback | Information a person voluntarily enters into a GitHub issue | GitHub and the public repository | Yes, if a person chooses to submit it | Public GitHub content is outside the app’s browser-only data model and is subject to GitHub’s controls. The app warns users not to submit report text, symptoms, personal details, or other health information. |
 | Site delivery | Ordinary technical connection data such as IP address, browser/device details, request time, and requested pages | Hosting-provider infrastructure | May be processed by the host to deliver and secure the site | Subject to the host’s operating and retention practices; no product analytics or marketing tracking is configured. |
 
 ## Current exclusions
 
-The app has no accounts, logins, report uploads, contact forms, customer-support intake, advertising, analytics, behavioral profiling, marketing cookies, error-reporting service, database, or server-side application code. It is not designed to receive report text, health details, or other personal information.
+The app has no accounts, logins, report uploads, contact forms, advertising, analytics, behavioral profiling, marketing cookies, error-reporting service, database, or server-side application code. It is not designed to receive report text, health details, or other personal information. A public GitHub issue tracker is available for non-urgent product feedback only; it is not a private support channel.
 
 ## Required review triggers
 
-Review this inventory and seek privacy/legal advice before enabling any new third-party script, tag manager, analytics, advertising, form, email, support tool, account, cloud database, provider connection, embedded content, report upload, or patient-specific functionality. Confirm the hosting provider’s logging, security, and retention terms before a public launch.
+Review this inventory and seek privacy/legal advice before enabling any new third-party script, tag manager, analytics, advertising, form, email, support tool, account, cloud database, provider connection, embedded content, report upload, or patient-specific functionality. Confirm the hosting provider’s and GitHub’s logging, security, and retention terms before a public launch.

@@ -20,7 +20,7 @@ MammoLingo makes unfamiliar mammogram terminology easier to recognize and discus
 
 ## What it does
 
-- **Explains report language in plain English** — including selected BI-RADS categories, breast density, calcifications, and masses.
+- **Explains report language in plain English** — 41 selected terms across assessments, exam and image language, findings, and report context.
 - **Turns uncertainty into useful questions** — every entry suggests focused questions to discuss with a clinician.
 - **Keeps sources in view** — entries link to public, authoritative reference material.
 - **Respects privacy by design** — searches stay in the browser; saved terms remain on the device.
@@ -39,7 +39,7 @@ Visit **[boredpolymath.github.io/MammoLingo](https://boredpolymath.github.io/Mam
 
 ## What’s included today
 
-The current library covers a focused set of common terms and selected BI-RADS categories. BI-RADS 4–6 are not included yet. MammoLingo does not claim to be a comprehensive or official implementation of any reporting lexicon.
+The current library covers a selected set of common U.S. mammography-report terms, including general education about BI-RADS assessment categories 0–6. It does not claim to be a complete dictionary, a comprehensive or official implementation of any reporting lexicon, or a replacement for a clinician’s interpretation.
 
 Each explanation is independently written for general education and links to a public source. BI-RADS® is a registered trademark of the American College of Radiology.
 
@@ -76,7 +76,11 @@ The project maintains release and stewardship documentation:
 - [Content governance workflow](CONTENT_GOVERNANCE.md)
 - [Privacy and data inventory](DATA_AND_PRIVACY_INVENTORY.md)
 - [Content and intellectual-property policy](CONTENT_AND_IP_POLICY.md)
+- [Glossary coverage boundary](GLOSSARY_COVERAGE.md)
 - [Operations and incident response](OPERATIONS_AND_INCIDENT_RESPONSE.md)
+- [Release notes](RELEASE_NOTES.md)
+- [Release sign-off record](RELEASE_SIGNOFF.md)
+- [Privacy-respecting launch metrics](LAUNCH_METRICS.md)
 
 ## Contribute
 

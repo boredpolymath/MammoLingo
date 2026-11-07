@@ -7,7 +7,7 @@ Owner: Bored Polymath Studios
 
 Bored Polymath Studios owns decisions about content corrections, source changes, and emergency content withdrawals for MammoLingo. This applies to glossary explanations, suggested questions, sources, disclaimers, and legal notices.
 
-MammoLingo currently has no public support or feedback channel. Potential issues may be identified through the owner’s scheduled reviews, source-publisher updates, internal testing, legal notices received through channels outside the app, or other credible information brought to the owner’s attention.
+MammoLingo accepts non-urgent app, accessibility, link, and content feedback through its public GitHub issue tracker. The tracker is not a medical-advice or private-support channel; the app warns users not to submit report text, symptoms, personal details, or other health information. Potential issues may also be identified through the owner’s scheduled reviews, source-publisher updates, internal testing, legal notices, or other credible information.
 
 ## Triage
 

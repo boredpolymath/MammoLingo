@@ -13,7 +13,7 @@ Bored Polymath Studios owns the following functions for MammoLingo:
 | Content stewardship | Source reviews, corrections, withdrawals, and release approval under the content-governance workflow. |
 | Engineering | Repository maintenance, GitHub Actions, GitHub Pages, dependency review, validation, and rollback. |
 | Privacy | Maintaining the data inventory and reviewing any proposed change to data flow, storage, third-party code, or tracking. |
-| Support | Maintaining the stated no-contact support model and ensuring the app does not imply a support channel exists. |
+| Support | Maintaining the public GitHub issue tracker, its privacy warning, triage labels, and response expectations. |
 | Incident response | Triage, containment, recovery, public notice where needed, and an internal incident record. |
 
 ## Retention and deletion
@@ -25,9 +25,14 @@ The app has no server-side application database, accounts, report uploads, or su
 - GitHub retains repository history and Pages deployment records according to GitHub’s service controls and policies.
 - Bored Polymath Studios will not intentionally add a personal-data store without updating the data inventory, Privacy Notice, and applicable legal review.
 
-## Support model
+## Support and feedback model
 
-MammoLingo currently offers no email address, form, postal address, or other user-support channel. The app must not invite users to submit medical reports or personal information. Content and safety issues discovered through the owner’s reviews or any legitimate external channel are handled under the content-governance workflow.
+The public [GitHub issue tracker](https://github.com/boredpolymath/MammoLingo/issues/new/choose) is the route for non-urgent app, link, accessibility, or content feedback. It is not a medical-advice, emergency, or private-support channel. The app and tracker must warn users not to submit a report, symptoms, personal details, or other health information.
+
+- Triage new issues within five business days; use the labels `content-safety`, `accessibility`, `broken-link`, `privacy`, `security`, or `product`.
+- Treat a credible content-safety, privacy, or security report as an emergency under this document and the content-governance workflow. Acknowledge and contain it as soon as practicable, rather than waiting for ordinary triage.
+- If a reporter posts health or personal information, do not quote or reproduce it. Ask the reporter to remove it, minimize further collection, and follow the incident process if it may have been exposed through project-controlled systems.
+- Direct people seeking help for symptoms, emergencies, or individual results to local emergency services or a qualified clinician, as appropriate. Do not provide individual medical guidance in issues.
 
 ## Incident response
 
