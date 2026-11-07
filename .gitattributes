@@ -1,0 +1,2 @@
+# MammoLingo is intentionally authored and deployed from dist/.
+dist/** linguist-generated=false
