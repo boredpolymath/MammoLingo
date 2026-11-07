@@ -1,6 +1,7 @@
 {
   "name": "mammolingo",
   "version": "1.0.3",
+  "description": "A privacy-first, plain-language glossary for mammogram-report terms.",
   "private": true,
   "type": "module",
   "scripts": {

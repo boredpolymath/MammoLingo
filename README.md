@@ -5,41 +5,48 @@
 </p>
 
 <p align="center">
-  <strong>Plain-language help for understanding mammogram-report terms.</strong>
+  <strong>Plain-language help for the words in a mammogram report.</strong>
 </p>
 
 <p align="center">
-  <a href="https://boredpolymath.github.io/MammoLingo/">Explore MammoLingo</a> ·
-  <a href="#what-it-does">What it does</a> ·
-  <a href="#important-limits">Important limits</a>
+  <a href="https://boredpolymath.github.io/MammoLingo/">Try the live glossary</a> ·
+  <a href="#why-it-exists">Why it exists</a> ·
+  <a href="#privacy-by-design">Privacy</a>
 </p>
 
-MammoLingo makes unfamiliar mammogram terminology easier to recognize and discuss. Search a term, read a concise plain-English explanation, save it on your device, and bring better questions to a conversation with a clinician.
+> **A privacy-first, plain-language glossary for mammogram-report terms.**
+
+Mammogram reports use precise clinical language. MammoLingo makes that language easier to recognize, understand in everyday words, and discuss with a clinician—without asking anyone to create an account, upload a report, or hand over personal information.
 
 **Educational content; not medical advice.** MammoLingo does not interpret reports, diagnose conditions, assess risk, or recommend care.
 
-## What it does
+## Try it now
 
-- **Explains report language in plain English** — 41 selected terms across assessments, exam and image language, findings, and report context.
-- **Turns uncertainty into useful questions** — every entry suggests focused questions to discuss with a clinician.
-- **Keeps sources in view** — entries link to public, authoritative reference material.
-- **Respects privacy by design** — searches stay in the browser; saved terms remain on the device.
-- **Works when connection is limited** — once loaded, glossary content and saved terms are available offline in supported browsers.
-- **Feels at home on any screen** — responsive navigation, readable cards, keyboard-friendly controls, and accessible dialogs.
+**[Open MammoLingo →](https://boredpolymath.github.io/MammoLingo/)**
 
-## Why MammoLingo
+Search a word or phrase from a report, browse by category, or save terms to revisit later. The glossary currently includes 41 independently written entries across assessments, exams and images, findings, and report context.
 
-Medical reports can be precise without being easy to read. MammoLingo is designed to make a first pass less intimidating—without pretending that a glossary can replace the expertise and context of a clinician.
+## Why it exists
 
-It is a lightweight, static web app with no account, report upload, analytics, advertising, or server-side application code. You can look up a term without creating another health-data trail.
+Receiving a report with unfamiliar words can feel isolating. A glossary cannot replace a clinician's judgment or explain what a specific result means for a person. It can, however, make a first read calmer and help turn “What does this word mean?” into a more useful conversation.
 
-## Explore the live app
+MammoLingo was made for that small but important in-between moment: when someone wants clear language before the next conversation with their care team.
 
-Visit **[boredpolymath.github.io/MammoLingo](https://boredpolymath.github.io/MammoLingo/)** to try it.
+## What you can do
 
-## What’s included today
+- **Look up report language in plain English.** Browse 41 terms by category or search directly for the phrase on a report.
+- **Prepare better questions.** Every entry includes prompts to take into a conversation with a clinician.
+- **See the source.** Entries link out to public, authoritative reference material.
+- **Save only what you choose.** Saved terms live in the browser on the device in use.
+- **Use it on the go.** It is responsive, keyboard-friendly, installable, and available offline after its first load in supported browsers.
 
-The current library covers a selected set of common U.S. mammography-report terms, including general education about BI-RADS assessment categories 0–6. It does not claim to be a complete dictionary, a comprehensive or official implementation of any reporting lexicon, or a replacement for a clinician’s interpretation.
+## Privacy by design
+
+MammoLingo is a lightweight static web app with no account, report upload, analytics, advertising, or server-side application code. A search stays in the browser; saved terms stay on the device. No one should need to create a new health-data trail just to look up a word.
+
+## A carefully scoped glossary
+
+The current library covers common U.S. mammography-report language, including general education about BI-RADS assessment categories 0–6. It does not claim to be a complete dictionary, an official implementation of a reporting lexicon, or a replacement for a clinician’s interpretation.
 
 Each explanation is independently written for general education and links to a public source. BI-RADS® is a registered trademark of the American College of Radiology.
 
