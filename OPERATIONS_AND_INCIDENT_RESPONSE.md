@@ -47,3 +47,15 @@ To roll back a faulty release, identify the last known-good commit on `main`, re
 ## Review triggers
 
 Revisit this document before enabling accounts, analytics, advertising, external scripts, report uploads, contact methods, health-provider partnerships, server-side code, databases, custom domains, or any new data flow.
+
+## Monthly technical review
+
+On the last Monday of every month at 9:00 AM Eastern, Bored Polymath Studios reviews:
+
+- GitHub repository access, branch protection, security alerts, and GitHub Pages settings;
+- GitHub Actions versions, workflow failures, and deployment history;
+- external source links, service-worker cache/version behavior, and browser-storage behavior;
+- changes that could affect accessibility, security, privacy, or the stated educational scope; and
+- the release checklist and this operations record.
+
+The first scheduled review is November 30, 2026. Record findings and corrective actions in the repository before closing the review.

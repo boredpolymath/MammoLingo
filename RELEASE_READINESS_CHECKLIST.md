@@ -58,7 +58,7 @@ This is the working release checklist. Checked items reflect decisions or work c
 - [ ] Create release notes, known limitations, and an internal go/no-go sign-off record.
 - [ ] Define launch metrics that respect privacy: completion, search success, broken links, accessibility defects, and content-feedback trends.
 - [x] Schedule a monthly glossary-source review on the last Monday of each month.
-- [ ] Schedule recurring technical dependency and security review.
+- [x] Schedule a monthly technical dependency and security review on the last Monday of each month.
 - [ ] Perform final production smoke tests on desktop and mobile immediately before launch.
 
 ## Release blockers
