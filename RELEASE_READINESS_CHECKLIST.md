@@ -36,7 +36,7 @@ This is the working release checklist. Checked items reflect decisions or work c
 - [ ] Test with VoiceOver on iOS/macOS, TalkBack on Android, and at least one desktop screen reader.
 - [ ] Test mobile layouts at 320px, common phone widths, tablet widths, and desktop widths.
 - [ ] Validate all touch targets, fixed bottom-navigation spacing, safe-area handling, and landscape phone behavior.
-- [ ] Run moderated usability testing with representative users; prioritize comprehension of disclaimers, search, saved terms, and source links.
+- [ ] Run moderated usability testing with representative users; solo-developer self-testing is documented but is not a substitute.
 - [ ] Ensure plain-language copy is reviewed for reading level, tone, inclusivity, and translation readiness.
 
 ## Technical quality
