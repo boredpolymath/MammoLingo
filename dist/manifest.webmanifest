@@ -1,0 +1,10 @@
+{
+  "name": "MammoLingo",
+  "short_name": "MammoLingo",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0A0118",
+  "theme_color": "#0A0118",
+  "description": "Plain-language explanations of common mammogram-report terms.",
+  "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]
+}
