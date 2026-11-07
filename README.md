@@ -1,6 +1,10 @@
 # MammoLingo
 
 <p align="center">
+  <img src="dist/readme-thumbnail.png" alt="Purple illustration of a magnifying glass focusing on a clear glossary card" width="360" />
+</p>
+
+<p align="center">
   <img src="dist/mammolingo-wordmark.png" alt="MammoLingo" width="360" />
 </p>
 
