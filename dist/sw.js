@@ -1,4 +1,4 @@
-const VERSION='mammogram-explainer-v31';
+const VERSION='mammogram-explainer-v32';
 const ASSETS=['./','./index.html','./404.html','./privacy.html','./terms.html','./styles.css','./app.js','./manifest.webmanifest','./icon.svg','./mammolingo-lockup.png'];
 self.addEventListener('install', event => event.waitUntil(caches.open(VERSION).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting())));
 self.addEventListener('activate', event => event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== VERSION).map(key => caches.delete(key)))).then(() => self.clients.claim())));
