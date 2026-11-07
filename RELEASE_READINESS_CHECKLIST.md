@@ -52,7 +52,7 @@ This is the working release checklist. Checked items reflect decisions or work c
 ## Launch operations
 
 - [x] Prepare the repository for public GitHub Pages deployment under the MIT License.
-- [ ] Create the public GitHub repository, enable GitHub Pages through GitHub Actions, and record the final public URL.
+- [x] Create the public GitHub repository, enable GitHub Pages through GitHub Actions, and record the public URL: [boredpolymath.github.io/MammoLingo](https://boredpolymath.github.io/MammoLingo/).
 - [ ] Define ownership for clinical content, engineering, privacy, support, and incident response.
 - [ ] Prepare support contact, feedback intake, issue triage, and response-time expectations.
 - [ ] Create release notes, known limitations, and an internal go/no-go sign-off record.

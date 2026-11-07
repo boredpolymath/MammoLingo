@@ -8,7 +8,7 @@ MammoLingo is a static, plain-language glossary for selected terms that may appe
 
 This repository is prepared for a public GitHub Pages release. The deployable static site is in `dist/`. The included GitHub Actions workflow deploys that directory when changes are pushed to `main`.
 
-Before the first release, create the public GitHub repository, push `main`, then enable **GitHub Pages → Build and deployment → GitHub Actions** in the repository settings. GitHub will provide the final public URL.
+The public release is available at [boredpolymath.github.io/MammoLingo](https://boredpolymath.github.io/MammoLingo/). Future pushes to `main` automatically redeploy the static site through GitHub Actions.
 
 ## Local preview
 
