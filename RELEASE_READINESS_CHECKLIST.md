@@ -24,8 +24,8 @@ This is the working release checklist. Checked items reflect decisions or work c
 
 - [x] Document the current operating position: Bored Polymath Studios is not operating as a HIPAA covered entity or business associate because it is not acting for a provider, plan, or clearinghouse and does not receive PHI on their behalf. Reassess and obtain counsel review before any change to that data flow. See [HHS health-app guidance](https://www.hhs.gov/hipaa/for-professionals/special-topics/health-apps/index.html).
 - [x] Publish a plain-language Privacy Notice and Terms of Use identifying Bored Polymath Studios; legal review remains required before public release.
-- [ ] Maintain a data inventory: browser storage, hosting logs, service-worker cache, analytics, error monitoring, and any third-party scripts.
-- [ ] Confirm that no report text or health information is sent to analytics, logs, support tools, or external vendors.
+- [x] Maintain the data inventory covering browser storage, hosting logs, service-worker cache, analytics, error monitoring, and third-party scripts.
+- [x] Confirm from the current static-app code and data-flow review that report text and health information are not sent to analytics, logs, support tools, or external vendors.
 - [ ] Review hosting and tracking technologies for health-data risk. See [HHS tracking-technology guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html).
 - [x] Define retention, deletion, incident-response, and user-support policies for the current static-app model.
 - [ ] Obtain counsel’s review of applicable consumer-health, privacy, and accessibility obligations for intended launch locations.
